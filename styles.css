@@ -1,18 +1,31 @@
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 400px;
   padding: 40px;
+  gap: 40px;
 }
 
-.hero-image {
-  width: 60%;
-  height: 100%;
+.hero img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-.hero-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill ;
+.content h1 {
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+.content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E60023;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
 }
